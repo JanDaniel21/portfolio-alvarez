@@ -113,6 +113,11 @@ body, html {
   color: white;
   padding-top: 20px;
 }
+
+h1{
+  color: white;
+}
+
 .image img {
   border-radius: 50%;
 }
@@ -151,8 +156,15 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   bottom: 0;
   width: 100%;
   margin-top: 50px;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px; /* Space between the two lists */
 }
