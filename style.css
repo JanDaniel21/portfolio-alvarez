@@ -1,0 +1,83 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #3570be;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.MeBox {
+  width: 80%;
+  height: 50% 1000px;
+  text-align: center;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#box1 {
+  background-color: #3570be;
+}
+
+#box2 {
+  background-color: #3570be;
+}
+
+.AboutBox {
+  width: 80%;
+  height: 50% 1000px;
+  text-align: center;
+  border-radius: 15px;e;
+}
+
+.test2{
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content p {
+  font-size: 20px;
+  padding: 0px 20px 20px 20px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.Header h1{
+  color: white;
+  padding-top: 20px;
+}
+.image img {
+  border-radius: 50%;
+}
+
+.image {
+  margin-right: -100px ;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 1;
+}
