@@ -2,7 +2,8 @@
   position: sticky;
   top: 0;
   overflow: hidden;
-  background-color: #3570be;
+  background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blurs the content behind the container */
   z-index: 5;
 }
 
@@ -97,6 +98,7 @@ body, html {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
+  min-height: auto;
 }
 
 .content p {
@@ -125,6 +127,7 @@ body, html {
 .image2 img {
   border-radius: 10%;
   width: 50%;
+  height: 200px;
   margin-top: 40px;
 }
 
@@ -142,4 +145,14 @@ body {
   background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnlmZ2RuNHZkNWVxejM0cXk0aHh6ZndwcnoxMnowamF4ajhnajBmcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eziH4b0ErsjmIev4Yi/giphy.gif);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
 }
