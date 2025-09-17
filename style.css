@@ -122,6 +122,12 @@ body, html {
   z-index: 1;
 }
 
+.image2 img {
+  border-radius: 10%;
+  width: 50%;
+  margin-top: 40px;
+}
+
 ul{
   list-style: none;
   padding: 0;
