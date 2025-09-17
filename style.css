@@ -3,6 +3,7 @@
   top: 0;
   overflow: hidden;
   background-color: #3570be;
+  z-index: 5;
 }
 
 /* Navbar links */
@@ -14,6 +15,8 @@
   padding: 14px;
   text-decoration: none;
 }
+
+
 
 /* Page content */
 .content {
@@ -39,24 +42,61 @@ body, html {
 }
 
 #box1 {
-  background-color: #3570be;
+  background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blurs the content behind the container */
 }
 
 #box2 {
-  background-color: #3570be;
+  background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blurs the content behind the container */
 }
+
+#MainBox {
+  background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blurs the content behind the container */
+}
+
+#box3 {
+  background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blurs the content behind the container */
+}
+
+#box4 {
+  background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blurs the content behind the container */
+}
+
+#box5 {
+  background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blurs the content behind the container */
+}
+
+
 
 .AboutBox {
   width: 80%;
   height: 50% 1000px;
   text-align: center;
-  border-radius: 15px;e;
+  border-radius: 15px;
+}
+
+.WorkedBox {
+  width: 30%;
+  height: 50% 1000px;
+  border-radius: 15px;
+  text-align: center;
 }
 
 .test2{
   margin-top: 50px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.test3 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .content p {
@@ -80,4 +120,20 @@ body, html {
   margin-top: auto;
   margin-bottom: auto;
   z-index: 1;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnlmZ2RuNHZkNWVxejM0cXk0aHh6ZndwcnoxMnowamF4ajhnajBmcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eziH4b0ErsjmIev4Yi/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
